@@ -1,6 +1,3 @@
-# ML-SAINT
-Repositório oficial do projeto comparando o modelo **SAINT (Self-Attention Transformer)** com modelos tradicionais (LightGBM, XGBoost, CatBoost) e ferramentas AutoML (AutoGluon, auto-sklearn) em 30 datasets tabulares do OpenML-CC18.
-
 # SAINT vs Gradient Boosting & AutoML for Tabular Data
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -29,7 +26,7 @@ Trabalho final da disciplina de Aprendizagem de Máquina (2025) com objetivo de:
 ## 🛠️ Como Reproduzir
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuuser/SAINT-Tabular-Data-Classification.git
+   git clone https://github.com/brenoman/ML-SAINT.git
 2. Instale as dependências:
     ```bash
     pip install -r requirements.txt   
