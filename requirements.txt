@@ -1,0 +1,30 @@
+# Core Libraries for Data Handling and Machine Learning
+numpy
+pandas
+scikit-learn
+openml
+
+# Gradient Boosting Libraries
+lightgbm
+xgboost
+catboost
+
+# Deep Learning and PyTorch
+torch
+lightning
+
+# Hyperparameter Optimization
+optuna
+
+# AutoML Libraries
+autogluon
+
+# Utilities and Visualization
+matplotlib
+seaborn
+tabulate
+omegaconf
+tqdm
+
+# Note: The 'saint_config_patch' and 'lit_saint' appear to be local custom modules.
+# They should be included in your project repository, not in requirements.txt.

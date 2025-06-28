@@ -3,35 +3,56 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Repositório oficial do projeto comparando o modelo **SAINT (Self-Attention Transformer)** com modelos tradicionais (LightGBM, XGBoost, CatBoost) e ferramentas AutoML (AutoGluon, auto-sklearn) em 30 datasets tabulares do OpenML-CC18.
+SAINT vs. Gradient Boosting & AutoML for Tabular Data
 
-## 🔍 Contexto
-Trabalho final da disciplina de Aprendizagem de Máquina (2025) com objetivo de:
-- Implementar e avaliar o SAINT - modelo Transformer para dados tabulares
-- Comparar com benchmarks de Gradient Boosting e AutoML
-- Aplicar protocolo estatístico rigoroso (teste de Demšar)
+Official repository for the project comparing the SAINT (Self-Attention and Intersample Transformer) model with traditional models (LightGBM, XGBoost, CatBoost) and AutoML tools (AutoGluon, auto-sklearn) across 30 tabular datasets from the OpenML-CC18 benchmark.
 
-## 🚀 Principais Resultados
-- ✅ **AutoGluon** obteve melhor performance geral (acurácia)
-- ⚡ **LightGBM** foi o mais eficiente (tempo de execução)
-- 🧠 **SAINT** mostrou potencial competitivo, especialmente em AUC-OVO
-- 📊 CatBoost teve melhor generalização (menor overfitting)
+🔍 Context
 
-## 📊 Métricas Analisadas
-- Acurácia (Accuracy)
-- AUC One-vs-One (AUC-OVO)
-- Entropia Cruzada (Cross-Entropy)
-- Tempo de execução
+This is the final project for the Machine Learning course (2025), with the following objectives:
 
-## 🛠️ Como Reproduzir
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/brenoman/ML-SAINT.git
-2. Instale as dependências:
-    ```bash
-    pip install -r requirements.txt   
-3. Execute os scripts (veja detalhes na documentação)
+    To implement and evaluate SAINT, a Transformer-based model for tabular data.
 
-## 📄 Documentação Completa
-- [Relatório Técnico](/docs/relatorio_final.pdf)
-- [Apresentação](/docs/apresentacao.pdf)
+    To compare its performance against Gradient Boosting and AutoML benchmarks.
+
+    To apply a rigorous statistical protocol for comparison (Demšar's test).
+
+🚀 Key Results
+
+    ✅ AutoGluon achieved the best overall performance (accuracy).
+
+    ⚡ LightGBM was the most efficient in terms of execution time.
+
+    🧠 SAINT demonstrated competitive potential, particularly in One-vs-One AUC.
+
+    📊 CatBoost showed the best generalization, with the lowest overfitting.
+
+📊 Analyzed Metrics
+
+    Accuracy
+
+    One-vs-One AUC (AUC-OVO)
+
+    Cross-Entropy
+
+    Execution Time
+
+🛠️ How to Reproduce
+
+    Clone the repository:
+    Bash
+
+git clone https://github.com/brenoman/ML-SAINT.git
+
+Install the dependencies (Anaconda is recommended):
+Bash
+
+    pip install -r requirements.txt
+
+    Run the scripts (see the documentation for more details).
+
+📄 Complete Documentation
+
+    Technical Report
+
+    Presentation
