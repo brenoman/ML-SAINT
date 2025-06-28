@@ -1,6 +1,6 @@
 # SAINT vs. Gradient Boosting & AutoML for Tabular Data
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.8+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Official repository for the project comparing the **SAINT (Self-Attention and Intersample Transformer)** model with traditional models (LightGBM, XGBoost, CatBoost) and AutoML tools (AutoGluon, auto-sklearn) across 30 tabular datasets from the OpenML-CC18 benchmark.
