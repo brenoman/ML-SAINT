@@ -51,8 +51,6 @@ Bash
 
     Run the scripts (see the documentation for more details).
 
-📄 Complete Documentation
-
-    Technical Report
-
-    Presentation
+## 📄 Complete Documentation
+- [Technical Report](docs/report.pdf)
+- [Presentation](docs/presentation.pdf)
