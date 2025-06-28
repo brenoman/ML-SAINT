@@ -33,7 +33,7 @@ First, create a new Conda environment. We will name it `saint-project` and use P
 
 ```bash
 # Create a new environment named 'saint-project' with Python 3.9
-conda create -n saint-project python=3.9 -y
+conda create -n saint-project python=3.8 -y
 ```
 
 Next, activate the newly created environment. You must do this every time you work on the project in a new terminal session.
@@ -68,7 +68,5 @@ By following these steps, you will have a clean and isolated environment with al
 
 The detailed findings, methodology, and statistical analysis are available in the full project report and presentation slides.
 
-- [Technical Report](docs/technical_report.pdf)
+- [Technical Report](docs/report.pdf)
 - [Presentation](docs/presentation.pdf)
-
-*(Note: Ensure your PDF files are named `technical_report.pdf` and `presentation.pdf` and are located in the `docs` folder for these links to work correctly.)*
